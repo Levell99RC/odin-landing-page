@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -100,4 +101,11 @@ a {
     border-radius: 16px;
     background-color: lightgray;
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 50px;
 }
