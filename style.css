@@ -34,6 +34,28 @@ a {
     display: flex;
     padding: 10px 30px;
     justify-content: space-evenly;
+    background-color: #1F2937;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hero h1 {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .hero img {
