@@ -29,3 +29,17 @@ a {
     color: #F9FAF8;
     font-size: 20px;
 }
+
+.hero {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+}
+
+.hero img {
+    height: 200px;
+    width: 400px;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+}
