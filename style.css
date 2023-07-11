@@ -92,6 +92,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 20px;
     width: 200px;
 }
 
@@ -101,6 +102,33 @@ a {
     border-radius: 16px;
     background-color: lightgray;
     text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.testimonial .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial .quote-credit {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 26px;
 }
 
 .footer {
